@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n1:responseProcessingResult xmlns:eat="http://agregatoreat.ru/eat/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://agregatoreat.ru/eat/object-types/" eat:Version="1.11.0" eat:RequestUID="ec3f31a0-b9cb-4c48-81e5-d2a84df73017" xsi:schemaLocation="http://agregatoreat.ru/eat/object-types/ eatObjects.xsd">
+	<eat:createDateTime>2019-06-08T09:05:57.021</eat:createDateTime>
+	<eat:ProcessingState>complete</eat:ProcessingState>
+	<responseOrderNotification>
+		<eat:OrderNumber>100221039119000019</eat:OrderNumber>
+		<eat:startDate>2019-06-07T16:36:36.000Z</eat:startDate>
+		<eat:orderExpireDate>2019-06-08T16:36:36.000Z</eat:orderExpireDate>
+		<eat:typePurchase>Закупка до 100 000 руб. (п.4 ч.1 ст.93 Закона №44-ФЗ)</eat:typePurchase>
+		<eat:Product>
+			<eat:sequenceNumber>1</eat:sequenceNumber>
+			<eat:EATofferNumber>300838668.000000012_19</eat:EATofferNumber>
+			<eat:EATClassifierRefCode>281206</eat:EATClassifierRefCode>
+			<eat:name>Подготовка водителей ТС кат. «А», «В», «С», «D» оборудованных устройствами для подачи спецсигналов</eat:name>
+			<eat:requirements>Не указано</eat:requirements>
+			<eat:OKEI>
+				<eat:code>796</eat:code>
+				<eat:name>Штука</eat:name>
+			</eat:OKEI>
+			<eat:OKPD>
+				<eat:code>85.42.11.000</eat:code>
+				<eat:name>85.42.11.000 - Услуги школ подготовки водителей автотранспортных средств</eat:name>
+			</eat:OKPD>
+			<eat:features>
+				<eat:name>Актуальность</eat:name>
+				<eat:qualityValueSet>Нет</eat:qualityValueSet>
+			</eat:features>
+			<eat:availableVolume>1</eat:availableVolume>
+		</eat:Product>
+		<eat:Customer>
+			<eat:CustomerName>УПРАВЛЕНИЕ РОСГВАРДИИ ПО ТАМБОВСКОЙ ОБЛАСТИ</eat:CustomerName>
+			<eat:sellerRef>
+				<eat:INN>6829126084</eat:INN>
+				<eat:KPP>682001001</eat:KPP>
+				<eat:OGRN>1166820062826</eat:OGRN>
+			</eat:sellerRef>
+			<eat:address>Российская Федерация, 392519, Тамбовская обл, Тамбовский р-н, Красненькая д, УЛИЦА СЕВЕРНАЯ, ДОМ 16А</eat:address>
+			<eat:additionalInfo>Дополнительный адрес электронной почты: nomo68@mail.ru</eat:additionalInfo>
+			<eat:contactInfo>
+				<eat:person>
+					<eat:lastName>ДОБРОВОЛЬСКИЙ</eat:lastName>
+					<eat:firstName>АЛЕКСАНДР</eat:firstName>
+					<eat:middleName>АЛЕКСАНДРОВИЧ</eat:middleName>
+				</eat:person>
+				<eat:email>tambov_rosgvfin@sdcmail.ru</eat:email>
+				<eat:phone>+7 (999)-725-73-03</eat:phone>
+				<eat:fax>+7(475)277-26-80</eat:fax>
+			</eat:contactInfo>
+		</eat:Customer>
+		<eat:maxOrderCost>30000</eat:maxOrderCost>
+		<eat:PaymentDetails>
+			<eat:PaymentType>По счету</eat:PaymentType>
+			<eat:PaymentTerms>Отсроченная оплата</eat:PaymentTerms>
+			<eat:PaymentDeadlineInterval>10</eat:PaymentDeadlineInterval>
+		</eat:PaymentDetails>
+		<eat:DeliveryAddress>
+			<eat:fiasCode>a9a71961-9363-44ba-91b5-ddf0463aebc2</eat:fiasCode>
+			<eat:AddressString>, обл Тамбовская, , </eat:AddressString>
+			<eat:SelfDelivery>1</eat:SelfDelivery>
+		</eat:DeliveryAddress>
+		<eat:DeliveryDate>2019-07-01</eat:DeliveryDate>
+		<eat:DeliverySchedule>С момента заключения контракта согласно учебного плана по указанной программе обучения</eat:DeliverySchedule>
+		<eat:WWWReference>https://agregatoreat.ru/purchase/233221/order-info</eat:WWWReference>
+		<eat:planDateConclusion>2019-06-13</eat:planDateConclusion>
+		<eat:infoTermination>В соответствии с положениями ст. 95 Федерального закона № 44-ФЗ и Регламента функционирования ЕАТ</eat:infoTermination>
+		<eat:RNP44Flag>Нет</eat:RNP44Flag>
+		<eat:supplierLicense>1</eat:supplierLicense>
+		<eat:attachments>
+			<eat:fileName>Проект гос. контракт на обучение СГУ.doc</eat:fileName>
+			<eat:contentRef>https://agregatoreat.ru/api/ext/documents-api/file?fileId=bd86bb87eeab7ee4c07739948a851931</eat:contentRef>
+		</eat:attachments>
+		<eat:attachments>
+			<eat:fileName>Техническое задание СГУ.docx</eat:fileName>
+			<eat:contentRef>https://agregatoreat.ru/api/ext/documents-api/file?fileId=5635ef260242a79f0539231aa4adfe03</eat:contentRef>
+		</eat:attachments>
+		<eat:notificationPrintForm>
+			<eat:fileName>233221</eat:fileName>
+			<eat:contentRef>https://agregatoreat.ru/api/print/order-info?orderId=233221</eat:contentRef>
+		</eat:notificationPrintForm>
+	</responseOrderNotification>
+</n1:responseProcessingResult>
