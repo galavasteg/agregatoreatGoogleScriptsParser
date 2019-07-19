@@ -24,7 +24,7 @@ function parseOrder() {
 function addOrderOwnerInfo(orderInfo) {
   var sheet = ss.getSheetByName(sheetNames[0]);
   sheet.insertRowBefore(2);
-  // наполнение таблицы
+  // filling the table
   for each (var field in headers)
   {
     var val = orderInfo[field];
