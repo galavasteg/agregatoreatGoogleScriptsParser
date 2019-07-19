@@ -1,17 +1,3 @@
-/*
-Happy-path
-*/
-function Test() {
-  // collect orders' ids
-  renewUnprocessedOrders()
-  // fetch details of order
-  parseOrder()
-  // collect unprocessed emails
-  renewUnprocessedEmails()
-  // send email
-  mail();
-}
-
 /* TODOs:
 getOrders: indexOf or XMLparse ?
 indexOf or Utilities.formatString or replaceAll ?
@@ -26,6 +12,21 @@ check email is delivered
 */
 
 var ss = SpreadsheetApp.getActive();
+
+
+/*
+Happy-path
+*/
+function Test() {
+  // collect orders' ids
+  renewUnprocessedOrders()
+  // fetch details of order
+  parseOrder()
+  // collect unprocessed emails
+  renewUnprocessedEmails()
+  // send email
+  mail();
+}
 
 
 /*
