@@ -17,7 +17,7 @@ var pdfFileName = 'IDEACRAFT.pdf'
 var htmlTempl = htmlTemplFile.getBlob().getDataAsString();
 var pdfFileId = getFileId(pdfFileName);
 
-// TODO плюшка - ссыль на приложенный файл
+// TODO: feature, download order's spec file
 var extDocsUrl = 'https://agregatoreat.ru/api/ext/documents-api';
 
 var orderInfoUrl = 'https://agregatoreat.ru/api/print/order-info?orderId=';
