@@ -167,7 +167,7 @@ function replaceAll(str, find, replace) {
 
 function getXmlTagValue(text, templTag, from) {
   var start = text.indexOf(templTag, from);
-//  console.log(templTag + from + start)
+  // console.log(templTag + from + start)
   if ( start == -1 ) {
     return {'end': text.length, 'start': text.length, 'subText': ''};
   }

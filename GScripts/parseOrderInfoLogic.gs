@@ -11,7 +11,7 @@ function parseOrderInfo(text) {
   {
     var fieldTempl = fieldsTemplMap[field];
     var parsedText = getXmlTagValue(oneLineText, fieldTempl['templ'])['subText'];
-//    console.log(field, fieldTempl['templ'], parsedText)
+    // console.log(field, fieldTempl['templ'], parsedText)
     if (!!fieldTempl['preprocessFunc']) {
       parsedText = fieldTempl['preprocessFunc'](parsedText);
     }
@@ -42,7 +42,7 @@ function numbersFilter(text) {
 }
 
 function emailFilter(text) {
-  return /\S+@\S+\.\S+/.exec(text)[0]; // stops on 1294 Хуако	Юра	Сафербиевич
+  return /\S+@\S+\.\S+/.exec(text)[0];
 }
 
 function getInitStatus(text) {
