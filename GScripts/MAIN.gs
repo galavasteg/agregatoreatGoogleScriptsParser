@@ -25,12 +25,17 @@ check email is delivered
 var ss = SpreadsheetApp.getActive();
 
 
-/* Триггер создается автоматически при появлении новых email
- на частоту 1 запуск в 5 мин. Триггер удаляется, если
- - очередь на парсинг пустая
- - исчерпан лимит посыла сообщений
- - fromEmailAddress (см. CONFIG.gs) - не текущий пользователь и
- на него не настроен псевдоним. */
+/*
+Send several emails.
+If new emails were collected (by renewUnprocessedEmails function)
+the trigger on this function creates automatically.
+Created trigger will run once per 5 minutes.
+The trigger will be deleted in one of this cases:
+ - there are no new email-addresses;
+ - there was exceeded email-sending limit (Google global limit);
+ - fromEmailAddress parameter (in CONFIG.gs) is not a current script user
+   or current script user has not alias on fromEmailAddress.
+ */
 function mailing() {
   for (i=0; i<5; i++) {
     mail();
