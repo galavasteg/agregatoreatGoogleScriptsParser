@@ -37,9 +37,13 @@ function mailing() {
   }
 }
 
-/* Триггер выставляется автоматически при появлении новых заказов
- на частоту 1 запуск в 2 мин. Если очередь на парсинг пустая -
- триггер удаляется. */
+/*
+Fetch details of several orders.
+If new orders were collected (by renewUnprocessedOrders function)
+the trigger on this function creates automatically.
+Created trigger will run once per 2 minutes.
+If there is no new order, the trigger will be deleted.
+*/
 function collectOrderOwners() {
   parseOrder();
   parseOrder();
@@ -49,8 +53,8 @@ function collectOrderOwners() {
   parseOrder();
   parseOrder();
   parseOrder();
-//  for (var i=0; i<8; i++) {
-//    // TODO: often work only one iteration without another 
-//    parseOrder();
-//  }
+  // for (var i=0; i<8; i++) {
+  //   // TODO: often work only one iteration, others are not called
+  //   parseOrder();
+  // }
 }
