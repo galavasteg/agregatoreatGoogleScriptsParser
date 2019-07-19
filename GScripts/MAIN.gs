@@ -1,11 +1,14 @@
+/*
+Happy-path
+*/
 function Test() {
-  // собираем номера заказов в очередь на парсинг
+  // collect orders' ids
   renewUnprocessedOrders()
-  // парсим заказы из этой очереди
+  // fetch details of order
   parseOrder()
-  // собираем email в очередь на рассылку
+  // collect unprocessed emails
   renewUnprocessedEmails()
-  // рассылка писем
+  // send email
   mail();
 }
 
