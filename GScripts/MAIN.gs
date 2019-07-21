@@ -1,4 +1,5 @@
 /* TODOs:
+Add table example
 getOrders: indexOf or XMLparse ?
 indexOf or Utilities.formatString or replaceAll ?
 doc/comments on English
