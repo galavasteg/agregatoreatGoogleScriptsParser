@@ -14,3 +14,5 @@ Google scripts .gs-files for parsing information about order owners from the agr
     * __htmlTemplFileName__ - the name of the html-body file for your emails
     * __pdfFileName__ - pdf-attachment file name
 >NOTE: The last two files must be added to your Google Drive!
+
+5. Set triggers on functions *renewUnprocessedOrders* and *renewUnprocessedEmails*. You can read about the mechanism of the parser and mailer in the [MAIN.gs](https://github.com/galavasteg/agregatoreatGoogleScriptsParser/blob/master/GScripts/MAIN.gs "Main script")
