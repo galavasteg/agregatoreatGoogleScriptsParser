@@ -1,7 +1,7 @@
 # agregatoreatRuGoogleScriptsParser
 Google scripts .gs-files for parsing information about order owners from the agregatoreat.ru and mailing them your offer.
 
-1. Copy [GoogleSheet]("https://docs.google.com/spreadsheets/d/14uAUNbD9NJSS1S-GHGMkDeqsznfqYeWE6ieeG3g8iaw/edit?usp=sharing") example to your Google Drive
+1. Copy [GoogleSheet](https://docs.google.com/spreadsheets/d/14uAUNbD9NJSS1S-GHGMkDeqsznfqYeWE6ieeG3g8iaw/edit?usp=sharing "Sheet example") example to your Google Drive
 
 2. Open scripts. Set parameters in [CONFIG.gs](https://github.com/galavasteg/agregatoreatGoogleScriptsParser/blob/master/GScripts/CONFIG.gs "Script configuration"):
     * __authToken__ - token from your *agregatoreat* company account
